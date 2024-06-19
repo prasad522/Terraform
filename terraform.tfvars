@@ -1,4 +1,7 @@
-bucket_name = "dev-proj-1-jenkins-remote-state-bucket-123456"
+organisation = prasad522
+environment = default
+
+bucket_name = "dev-proj-522-jenkins-remote-state-bucket"
 
 vpc_cidr             = "11.0.0.0/16"
 vpc_name             = "dev-proj-jenkins-eu-west-vpc-1"
