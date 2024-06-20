@@ -37,7 +37,7 @@ output "jenkins_instance_public_ip" {
 }
 
 output "ssh_connection_string_for_ec2" {
-  value = forma
+  value = format("ssh -i /Users/prasadambati/Downloads ubuntu@",aws_instance.Jenkins_Instance.public_ip )
 }
 resource "aws_instance" "Jenkins_Instance" {
     ami = var.ami_id
